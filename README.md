@@ -156,6 +156,102 @@ Ejecutar en phpMyAdmin:
 
 - Las URLs siguen el formato:
 
+# Sistema de Gestión de Aviones ✈️
+
+## 🌟 ¿Para qué sirve este programa?
+Este sistema te permite llevar un control completo de los aviones registrados, con funciones para:
+
+- **Registrar** nuevos aviones ✏️  
+- **Visualizar** todos los aviones almacenados 👀  
+- **Editar** información existente 🛠️  
+- **Eliminar** registros cuando sea necesario 🗑️  
+
+## 🛠 Funciones Principales
+
+### 1. Registrar Nuevo Avión ➕
+**Qué hace:**  
+- Añade nuevos aviones a la base de datos  
+- Guarda toda su información importante  
+
+**Cómo usarlo:**  
+1. Haz clic en "Agregar Avión"  
+2. Completa el formulario con:  
+   - Matrícula (identificación única)  
+   - Modelo del avión  
+   - Aerolínea  
+   - Capacidad de pasajeros  
+   - Fecha de fabricación  
+3. Presiona "Guardar"  
+
+📌 *Ejemplo:*  
+
+
+### 2. Ver Todos los Aviones 👁️
+**Qué hace:**  
+- Muestra una lista completa de aviones registrados  
+- Permite ordenar y buscar información  
+
+**Qué información muestra:**  
+✅ Matrícula  
+✅ Modelo  
+✅ Aerolínea  
+✅ Capacidad  
+✅ Fecha de registro  
+
+🔍 *Puedes buscar por:*  
+- Cualquier campo  
+- Usar filtros avanzados  
+
+### 3. Editar Registros ✏️
+**Qué hace:**  
+- Actualiza información de aviones existentes  
+- Corrige datos incorrectos  
+
+**Pasos para editar:**  
+1. Busca el avión en la lista  
+2. Haz clic en "Editar"  
+3. Modifica los campos necesarios  
+4. Guarda los cambios  
+
+⚠️ *Importante:*  
+- La matrícula no se puede modificar (es el identificador único)  
+- Todos los cambios quedan registrados  
+
+### 4. Eliminar Aviones 🗑️
+**Qué hace:**  
+- Remueve permanentemente registros de la base de datos  
+
+**Cómo funciona:**  
+1. Localiza el avión a eliminar  
+2. Haz clic en "Eliminar"  
+3. Confirma la acción  
+
+🚨 *Advertencia:*  
+- Esta acción no se puede deshacer  
+- El sistema pedirá confirmación antes de borrar  
+
+## 📱 Interfaz Sencilla
+![Vista previa de la interfaz](diseño/screenshots/pantalla-principal.png)  
+*(Imagen ilustrativa del sistema)*
+
+## 🔄 Flujo de Trabajo Típico
+1. **Agregas** tus aviones  
+2. **Consultas** la información cuando lo necesites  
+3. **Actualizas** los datos si hay cambios  
+4. **Eliminas** registros obsoletos  
+
+## 💡 Consejos para Usuarios
+- Usa el buscador para encontrar aviones rápidamente  
+- Exporta los datos a Excel si necesitas hacer análisis  
+- Revisa dos veces antes de eliminar un registro  
+
+## 🆘 ¿Necesitas ayuda?
+Si tienes problemas:  
+1. Revisa que todos los campos estén completos al registrar  
+2. Verifica tu conexión a internet  
+3. Contacta al administrador si persiste el problema  
+
+✈️ **¡Ahora estás listo para gestionar tu flota de aviones eficientemente!**
 
 
 
