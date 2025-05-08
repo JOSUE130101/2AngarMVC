@@ -1,6 +1,18 @@
 # 2AngarMVC
 GestiondeRegistro
 
+<a id='contents'></a>
+## Contenido.
+<ul>
+<li><a href="#intro">Requisitos.</a></li>
+<li><a href="#wrangling">Instalacion.</a></li>
+<li><a href="#eda">Exploratory Data Analysis</a></li>
+<li><a href="#conclusions">Conclusions</a></li>
+<li><a href="#reference">Referencias</a></li>
+</ul>
+  
+<a id='intro'></a>
+
 # Sistema de Registro de Aviones ✈️
 
 Un sistema para gestionar el registro de aviones con arquitectura MVC.
