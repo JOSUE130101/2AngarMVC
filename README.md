@@ -25,13 +25,14 @@ cd proyecto-aviones
 CREATE DATABASE aviones;
 
 ## Configurar variables:
-- avion_id
-- avion_nombre
+```
+ avion_id
+ avion_nombre
 - avion_marca
 - avion_placa
 - avion_aerolinea
 - cantidad
-
+```
 ## 🗂 Estructura del Proyecto
  proyecto-aviones/
 - ├── modelos/
