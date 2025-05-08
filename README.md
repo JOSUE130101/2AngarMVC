@@ -101,6 +101,61 @@ proyecto-aviones/
 - const clave = "";
 - const nombrebd = "2proyectomvc";
 
+ Primeros Pasos
+Iniciar XAMPP (Apache y MySQL)
+
+## Abrir en navegador:
+
+- http://localhost/2AngarMVC/index.php
+- El sistema mostrará:
+
+- Dashboard principal
+
+## Listado de aviones existentes
+
+- Opciones de navegación
+
+## 🔧 Solución de Problemas
+- Error 404 - Página no encontrada
+- Verificar que la URL sea exacta
+
+- Asegurar que el archivo index.php exista en la ruta correcta
+
+## Error de Conexión a MySQL
+- Verificar en phpMyAdmin:
+
+- Que exista la base de datos 2proyectomvc
+
+- Que el usuario tenga permisos
+
+- Revisar credenciales en Conexion.php
+
+No se muestran los estilos
+Verificar que la carpeta diseño/ contenga los archivos CSS/JS
+
+Revisar rutas en las vistas
+
+## 📝 Insertar Datos de Prueba
+Ejecutar en phpMyAdmin:
+
+- sql
+- INSERT INTO aviones 
+- (matricula, modelo, aerolinea, capacidad, fecha_fabricacion) 
+- VALUES 
+- ('N12345', 'Boeing 737-800', 'Aeroméxico', 160, '2018-05-15'),
+- ('XA-ABC', 'Airbus A320neo', 'Volaris', 186, '2020-11-22');
+## 🛑 Recomendaciones de Seguridad
+- Cambiar credenciales de MySQL en producción
+
+- No usar usuario root en entorno real
+
+- Implementar sistema de autenticación
+
+## 📌 Notas Adicionales
+- El sistema usa el patrón MVC
+
+- Las URLs siguen el formato:
+
 
 
 
