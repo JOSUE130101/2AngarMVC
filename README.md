@@ -5,8 +5,8 @@ GestiondeRegistro
 ## Contenido.
 <ul>
 <li><a href="#intro">Requisitos.</a></li>
-<li><a href="#wrangling">Instalacion.</a></li>
-<li><a href="#eda">Exploratory Data Analysis</a></li>
+<li><a href="#wrangling">Instalación.</a></li>
+<li><a href="#eda">Clonar_repositorio</a></li>
 <li><a href="#conclusions">Conclusions</a></li>
 <li><a href="#reference">Referencias</a></li>
 </ul>
@@ -30,7 +30,6 @@ Un sistema para gestionar el registro de aviones con arquitectura MVC.
 git clone https://github.com/JOSUE130101/2AngarMVC/archive/refs/heads/main.zip
 cd proyecto-aviones
 
-**Clonar repositorio**
 
 ## Crear DB en MySQL:
 
