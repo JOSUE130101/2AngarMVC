@@ -6,7 +6,7 @@ GestiondeRegistro
 <ul>
 <li><a href="#intro">Requisitos.</a></li>
 <li><a href="#wrangling">Instalación.</a></li>
-<li><a href="#eda">Clonar_repositorio</a></li>
+<li><a href="#eda">Clonar repositorio</a></li>
 <li><a href="#conclusions">Conclusions</a></li>
 <li><a href="#reference">Referencias</a></li>
 </ul>
