@@ -34,6 +34,8 @@ CREATE DATABASE aviones;
 - cantidad
 ```
 ## 🗂 Estructura del Proyecto
+
+```
  proyecto-aviones/
 - ├── modelos/
 - │   ├── Avion.php
@@ -52,8 +54,10 @@ CREATE DATABASE aviones;
 - └── public/
 -    └── index.php
 
+```
 
-## 🔌 Configuración de Base de Datos
+
+` Configuración de Base de Datos `
 proyecto-aviones/
 - ├── modelos/
 - │   ├── Avion.php
