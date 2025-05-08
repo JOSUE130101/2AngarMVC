@@ -6,7 +6,7 @@ GestiondeRegistro
 <ul>
 <li><a href="#intro">Requisitos.</a></li>
 <li><a href="#wrangling">Instalación.</a></li>
-<li><a href="#eda">Crear DB en MySQL:
+<li><a href="#eda">CrearDB:
 </a></li>
 <li><a href="#conclusions">Conclusions</a></li>
 <li><a href="#reference">Referencias</a></li>
@@ -32,7 +32,7 @@ git clone https://github.com/JOSUE130101/2AngarMVC/archive/refs/heads/main.zip
 cd proyecto-aviones
 
 
-## Crear DB en MySQL:
+## CrearDB:
 
 CREATE DATABASE aviones;
 
