@@ -15,7 +15,7 @@ Un sistema para gestionar el registro de aviones con arquitectura MVC.
 
 1. **Clonar repositorio**:
 
-git clone https://github.com/JOSUE130101/2AngarMVC.git
+git clone https://github.com/JOSUE130101/2AngarMVC/archive/refs/heads/main.zip
 cd proyecto-aviones
 
 **Clonar repositorio**
