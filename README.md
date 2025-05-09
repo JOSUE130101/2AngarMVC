@@ -1,6 +1,37 @@
 # 2AngarMVC
-GestiondeRegistro
+# 🛩️ Sistema de Gestión de Aviones (AircraftDB)  
 
+**Versión:** 1.0  
+**Autor:** [Tu Nombre]  
+**Fecha:** DD/MM/AAAA  
+
+---
+
+## 📌 Descripción  
+**AircraftDB** es un programa de gestión de registros de aviones conectado a una base de datos. Permite administrar de manera eficiente información sobre aeronaves, incluyendo su marca, modelo, color y aerolínea asociada. Ideal para aerolíneas, aeropuertos o entusiastas de la aviación.  
+
+---
+
+## ✨ Funcionalidades  
+- **CRUD Completo:**  
+  - ✅ **Crear** nuevos registros de aviones.  
+  - 📝 **Editar** información existente (ej: cambio de aerolínea o modelo).  
+  - 🗑️ **Eliminar** aviones desactualizados o fuera de servicio.  
+  - 🔍 **Consultar** registros con filtros (por marca, aerolínea, etc.).  
+- **Base de Datos Integrada:**  
+  - Conexión a MySQL/PostgreSQL/SQLite (ajustable).  
+  - Almacenamiento seguro y escalable.  
+- **Interfaz Intuitiva:**  
+  - Menús interactivos (CLI) o interfaz gráfica (según versión).  
+
+---
+
+## 🛠️ Tecnologías Utilizadas  
+- **Lenguaje:** Python/Java/C# (según implementación).  
+- **Base de Datos:** SQL (ej: MySQL, PostgreSQL).  
+- **Control de Versiones:** Git.  
+
+--- 
 <a id='contents'></a>
 ## Contenido.
 <ul>
