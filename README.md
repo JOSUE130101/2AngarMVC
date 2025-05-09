@@ -8,8 +8,15 @@ GestiondeRegistro
 <li><a href="#wrangling">Instalación.</a></li>
 <li><a href="#eda">CrearDB:
 </a></li>
-<li><a href="#conclusions">Conclusions</a></li>
-<li><a href="#reference">Referencias</a></li>
+<li><a href="#configuracion">configuracion</a></li>
+<li><a href="#Estructura">Estructura</a></li>
+<li><a href="#Conexion">Conexion</a></li>
+<li><a href="#Clase">Clase</a></li>
+<li><a href="#Constantes">Constantes</a></li>
+<li><a href="#Instruciones">Instruciones</a></li>
+<li><a href="#Soluciones">Soluciones</a></li>
+
+
 </ul>
   
 <a id='intro'></a>
@@ -24,7 +31,6 @@ Un sistema para gestionar el registro de aviones con arquitectura MVC.
 - Servidor web (Apache/Nginx)
 - Composer (opcional para dependencias)
 
-<a id='eda'></a>
 ## 🚀 Instalación
 
 1. **Clonar repositorio**:
@@ -32,11 +38,12 @@ Un sistema para gestionar el registro de aviones con arquitectura MVC.
 git clone https://github.com/JOSUE130101/2AngarMVC/archive/refs/heads/main.zip
 cd proyecto-aviones
 
-
+<a id='eda'></a>
 ## CrearDB:
 
 CREATE DATABASE aviones;
 
+<a id='configuracion'></a>
 ## Configurar variables:
 ```
  avion_id
@@ -46,6 +53,8 @@ CREATE DATABASE aviones;
 - avion_aerolinea
 - cantidad
 ```
+<a id='Estructura'></a>
+
 ## 🗂 Estructura del Proyecto
 
 ```
@@ -75,43 +84,49 @@ proyecto-aviones/
 - ├── modelos/
 - │   ├── Avion.php
 - │   └── Conexion.php
+<a id='Conexion'></a>
 
 # Conexión a Base de Datos en PHP con PDO
 
 - Este documento explica el funcionamiento de la clase `BasedeDatos` que gestiona la conexión a MySQL utilizando PDO.
+<a id='Clase'></a>
 
 ## 🛠 Clase `BasedeDatos`
 
+```
+ <?php
+ class BasedeDatos {
+    const servidor = "localhost";
+    const usuariobd = "root";
+    const clave = "";
+    const nombrebd = "2proyectomvc";
 
-- <?php
-- class BasedeDatos {
--    const servidor = "localhost";
--    const usuariobd = "root";
--    const clave = "";
--    const nombrebd = "2proyectomvc";
-
--   public static function Conectar() {
--        try {
--            $conexion = new PDO(
--                "mysql:host=" . self::servidor . 
--                ";dbname=" . self::nombrebd . 
--                ";charset=utf8",
--                self::usuariobd,
--                self::clave
--           );
--            
--            $conexion->setAttribute(
--                 PDO::ATTR_ERRMODE, 
--                PDO::ERRMODE_EXCEPTION
--            );
--             
--             return $conexion;
+   public static function Conectar() {
+        try {
+            $conexion = new PDO(
+                "mysql:host=" . self::servidor . 
+                ";dbname=" . self::nombrebd . 
+                ";charset=utf8",
+                self::usuariobd,
+                self::clave
+           );
+            
+            $conexion->setAttribute(
+                 PDO::ATTR_ERRMODE, 
+                PDO::ERRMODE_EXCEPTION
+            );
+             
+             return $conexion;
             
         } catch(PDOException $e) {
             die("Error de conexión: " . $e->getMessage());
         }
     }
+
 }
+```
+<a id='Constantes'></a>
+
 ## Constantes de Configuración
 
 - const servidor = "localhost";
@@ -121,6 +136,7 @@ proyecto-aviones/
 
  Primeros Pasos
 Iniciar XAMPP (Apache y MySQL)
+<a id='Instruciones'></a>
 
 ## Abrir en navegador:
 
@@ -132,6 +148,7 @@ Iniciar XAMPP (Apache y MySQL)
 ## Listado de aviones existentes
 
 - Opciones de navegación
+<a id='Soluciones'></a>
 
 ## 🔧 Solución de Problemas
 - Error 404 - Página no encontrada
@@ -152,6 +169,7 @@ No se muestran los estilos
 Verificar que la carpeta diseño/ contenga los archivos CSS/JS
 
 Revisar rutas en las vistas
+<a id='Insertar'></a>
 
 ## 📝 Insertar Datos de Prueba
 Ejecutar en phpMyAdmin:
