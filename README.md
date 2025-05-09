@@ -86,12 +86,12 @@ proyecto-aviones/
 - │   └── Conexion.php
 <a id='Conexion'></a>
 
-# Conexión a Base de Datos en PHP con PDO
+` # Conexión a Base de Datos en PHP con PDO `
 
 - Este documento explica el funcionamiento de la clase `BasedeDatos` que gestiona la conexión a MySQL utilizando PDO.
 <a id='Clase'></a>
 
-## 🛠 Clase `BasedeDatos`
+` ## 🛠 Clase BasedeDatos`
 
 ```
  <?php
@@ -127,7 +127,7 @@ proyecto-aviones/
 ```
 <a id='Constantes'></a>
 
-## Constantes de Configuración
+`## Constantes de Configuración`
 
 - const servidor = "localhost";
 - const usuariobd = "root";
@@ -138,25 +138,25 @@ proyecto-aviones/
 Iniciar XAMPP (Apache y MySQL)
 <a id='Instruciones'></a>
 
-## Abrir en navegador:
+`## Abrir en navegador:`
 
 - http://localhost/2AngarMVC/index.php
 - El sistema mostrará:
 
 - Dashboard principal
 
-## Listado de aviones existentes
+`## Listado de aviones existentes`
 
 - Opciones de navegación
 <a id='Soluciones'></a>
 
-## 🔧 Solución de Problemas
+`## 🔧 Solución de Problemas`
 - Error 404 - Página no encontrada
 - Verificar que la URL sea exacta
 
 - Asegurar que el archivo index.php exista en la ruta correcta
 
-## Error de Conexión a MySQL
+`## Error de Conexión a MySQL`
 - Verificar en phpMyAdmin:
 
 - Que exista la base de datos 2proyectomvc
