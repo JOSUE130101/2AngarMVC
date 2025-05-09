@@ -1,9 +1,5 @@
 # 2AngarMVC
-# 🛩️ Sistema de Gestión de Aviones (AircraftDB)  
-
-**Versión:** 1.0  
-**Autor:** [Tu Nombre]  
-**Fecha:** DD/MM/AAAA  
+# 🛩️ Sistema de Gestión de Aviones (2avionesMVC) 
 
 ---
 
