@@ -13,17 +13,18 @@ GestiondeRegistro
 </ul>
   
 <a id='intro'></a>
-
 # Sistema de Registro de Aviones ✈️
 
 Un sistema para gestionar el registro de aviones con arquitectura MVC.
 
+<a id='wrangling'></a>
 ## 📋 Requisitos
 - PHP 7.4+
 - MySQL/MariaDB
 - Servidor web (Apache/Nginx)
 - Composer (opcional para dependencias)
 
+<a id='eda'></a>
 ## 🚀 Instalación
 
 1. **Clonar repositorio**:
