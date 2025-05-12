@@ -59,6 +59,7 @@ Un sistema para gestionar el registro de aviones con arquitectura MVC.
 - MySQL/MariaDB
 - Servidor web (Apache/Nginx)
 - Composer (opcional para dependencias)
+- Descargar XAMPP  https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.0.30/xampp-windows-x64-8.0.30-0-VS16-installer.exe
   <a href="#contents">Ir a Contenido.</a>
 
 
@@ -72,7 +73,8 @@ cd proyecto-aviones
 
 <a id='eda'></a>
 ## CrearDB:
-
+Descargar el repositorio https://github.com/JOSUE130101/2AngarMVC/archive/refs/heads/main.zip
+Al descargar el Zip se encuentra un archivo a AVIONES.sql 
 CREATE DATABASE aviones;
 
 <a id='configuracion'></a>
