@@ -107,10 +107,14 @@ CREATE DATABASE aviones;
 
 
 ` Configuración de Base de Datos `
+```
+
 proyecto-aviones/
 - ├── modelos/
 - │   ├── Avion.php
 - │   └── Conexion.php
+```
+
 <a id='Conexion'></a>
 
 ` # Conexión a Base de Datos en PHP con PDO `
