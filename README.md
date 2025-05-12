@@ -57,6 +57,8 @@ Un sistema para gestionar el registro de aviones con arquitectura MVC.
 - MySQL/MariaDB
 - Servidor web (Apache/Nginx)
 - Composer (opcional para dependencias)
+  <a href="#contents">Ir a Contenido.</a>
+
 
 ## 🚀 Instalación
 
@@ -64,6 +66,7 @@ Un sistema para gestionar el registro de aviones con arquitectura MVC.
 
 Descargar el repositorio https://github.com/JOSUE130101/2AngarMVC/archive/refs/heads/main.zip
 cd proyecto-aviones
+<a href="#contents">Ir a Contenido.</a>
 
 <a id='eda'></a>
 ## CrearDB:
@@ -81,6 +84,7 @@ CREATE DATABASE aviones;
 - cantidad
 ```
 <a id='Estructura'></a>
+<a href="#contents">Ir a Contenido.</a>
 
 ## 🗂 Estructura del Proyecto
 
@@ -104,6 +108,7 @@ CREATE DATABASE aviones;
 -    └── index.php
 
 ```
+<a href="#contents">Ir a Contenido.</a>
 
 
 ` Configuración de Base de Datos `
@@ -121,6 +126,8 @@ proyecto-aviones/
 
 - Este documento explica el funcionamiento de la clase `BasedeDatos` que gestiona la conexión a MySQL utilizando PDO.
 <a id='Clase'></a>
+<a href="#contents">Ir a Contenido.</a>
+
 
 ` ## 🛠 Clase BasedeDatos`
 
@@ -200,6 +207,8 @@ No se muestran los estilos
 Verificar que la carpeta diseño/ contenga los archivos CSS/JS
 
 Revisar rutas en las vistas
+<a href="#contents">Ir a Contenido.</a>
+
 <a id='Insertar'></a>
 
 ## 📝 Insertar Datos de Prueba
