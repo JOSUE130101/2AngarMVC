@@ -74,7 +74,7 @@ cd proyecto-aviones
 <a id='eda'></a>
 ## CrearDB:
 Descargar el repositorio https://github.com/JOSUE130101/2AngarMVC/archive/refs/heads/main.zip
-Al descargar el Zip se encuentra un archivo a AVIONES.sql 
+Al descargar el Zip se encuentra un archivo a AVIONES.sql https://github.com/JOSUE130101/2AngarMVC/blob/0c3890ef7de54f835843b0284748030f76704de0/aviones.sql
 CREATE DATABASE aviones;
 
 <a id='configuracion'></a>
