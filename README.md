@@ -84,10 +84,10 @@ CREATE DATABASE aviones;
 ```
  avion_id
  avion_nombre
-- avion_marca
-- avion_placa
-- avion_aerolinea
-- cantidad
+ avion_marca
+ avion_placa
+ avion_aerolinea
+ cantidad
 ```
 <a id='Estructura'></a>
 <a href="#contents">Ir a Contenido.</a>
@@ -96,22 +96,22 @@ CREATE DATABASE aviones;
 
 ```
  proyecto-aviones/
-- ├── modelos/
-- │   ├── Avion.php
-- │   └── Conexion.php
-- ├── vistas/
-- │   ├── layouts/
-- │   ├── aviones/
-- │   │   ├── index.php
-- │   │   └── crear.php
-- ├── controladores/
-- │   └── AvionController.php
-- ├── diseño/
-- │   ├── css/
-- │   ├── js/
-- │   └── img/
-- └── public/
--    └── index.php
+ ├── modelos/
+ │   ├── Avion.php
+ │   └── Conexion.php
+ ├── vistas/
+ │   ├── layouts/
+ │   ├── aviones/
+ │   │   ├── index.php
+ │   │   └── crear.php
+ ├── controladores/
+ │   └── AvionController.php
+ ├── diseño/
+ │   ├── css/
+ │   ├── js/
+ │   └── img/
+ └── public/
+    └── index.php
 
 ```
 <a href="#contents">Ir a Contenido.</a>
@@ -121,9 +121,9 @@ CREATE DATABASE aviones;
 ```
 
 proyecto-aviones/
-- ├── modelos/
-- │   ├── Avion.php
-- │   └── Conexion.php
+ ├── modelos/
+ │   ├── Avion.php
+ │   └── Conexion.php
 ```
 
 <a id='Conexion'></a>
@@ -188,32 +188,32 @@ Iniciar XAMPP (Apache y MySQL)
 
 `## Abrir en navegador:`
 
-- http://localhost/2AngarMVC/index.php
-- El sistema mostrará:
+ http://localhost/2AngarMVC/index.php
+ El sistema mostrará:
 
-- Dashboard principal
+ Dashboard principal
 
 `## Listado de aviones existentes`
 
-- Opciones de navegación
+ Opciones de navegación
     <a href="#contents">Ir a Contenido.</a>
 
 <a id='Soluciones'></a>
 
 `## 🔧 Solución de Problemas`
-- Error 404 - Página no encontrada
-- Verificar que la URL sea exacta
+ Error 404 - Página no encontrada
+ Verificar que la URL sea exacta
 
-- Asegurar que el archivo index.php exista en la ruta correcta
+ Asegurar que el archivo index.php exista en la ruta correcta
 
 `## Error de Conexión a MySQL`
-- Verificar en phpMyAdmin:
+ Verificar en phpMyAdmin:
 
-- Que exista la base de datos 2proyectomvc
+ Que exista la base de datos 2proyectomvc
 
-- Que el usuario tenga permisos
+ Que el usuario tenga permisos
 
-- Revisar credenciales en Conexion.php
+ Revisar credenciales en Conexion.php
 
 No se muestran los estilos
 Verificar que la carpeta diseño/ contenga los archivos CSS/JS
