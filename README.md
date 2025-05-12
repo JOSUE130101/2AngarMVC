@@ -182,7 +182,7 @@ proyecto-aviones/
 
  Primeros Pasos
 Iniciar XAMPP (Apache y MySQL)
-  <a href="#contents">Ir a Contenido.</a>
+<a href="#contents">Ir a Contenido.</a>
 
 <a id='Instruciones'></a>
 
@@ -196,7 +196,7 @@ Iniciar XAMPP (Apache y MySQL)
 `## Listado de aviones existentes`
 
  Opciones de navegación
-    <a href="#contents">Ir a Contenido.</a>
+<a href="#contents">Ir a Contenido.</a>
 
 <a id='Soluciones'></a>
 
@@ -233,7 +233,7 @@ Ejecutar en phpMyAdmin:
 - VALUES 
 - ('N12345', 'Boeing 737-800', 'Aeroméxico', 160, '2018-05-15'),
 - ('XA-ABC', 'Airbus A320neo', 'Volaris', 186, '2020-11-22');
-<a href="#contents">Ir a Contenido.</a>
+- <a href="#contents">Ir a Contenido.</a>
 
 ## 🛑 Recomendaciones de Seguridad
 - Cambiar credenciales de MySQL en producción
@@ -241,7 +241,7 @@ Ejecutar en phpMyAdmin:
 - No usar usuario root en entorno real
 
 - Implementar sistema de autenticación
-<a href="#contents">Ir a Contenido.</a>
+- <a href="#contents">Ir a Contenido.</a>
 
 
 ## 📌 Notas Adicionales
