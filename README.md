@@ -43,6 +43,8 @@
 <li><a href="#Instruciones">Instruciones</a></li>
 <li><a href="#Soluciones">Soluciones</a></li>
 <li><a href="#Referencias">Referencias</a></li>
+<li><a href="#MI">Sobremi</a></li>
+
 
 
 
@@ -377,6 +379,7 @@ PHP 7.2 / Visual Studio Code / MariaDB(MySQL)
 
   <a href="#contents">Ir a Contenido.</a>
 
+<a id='MI'></a>
 
 ## 👨💻 Sobre el Desarrollador
 ```
