@@ -330,6 +330,20 @@ Si tienes problemas:
 ✈️ **¡Ahora estás listo para gestionar tu flota de aviones eficientemente!**
 
 
+## 📹 Referencias de Videos
+
+A continuación, se listan los videos utilizados como referencia en este proyecto:
+
+1. **01.1 PHP MVC y Estructura en Carpetas (Proyecto MVC PHP)**  
+   - **Canal/Creador**:
+El Profe Sergio (  https://www.youtube.com/watch?v=hzfX51FBebM&t=2s)
+   - **Enlace**: [https://www.youtube.com/watch?v=hzfX51FBebM&t=2s]  
+   - **Fecha de publicación**: 28/04/2025  
+   - **Descripción breve**: Este es el primero de una serie de videos donde se elaborará un sistema de información usando Modelo/Vista/Controlador en PHP y programación orientada a objetos.
+PHP 7.2 / Visual Studio Code / MariaDB(MySQL)
+  
+
+
 
 
 ## 👨💻 Sobre el Desarrollador
