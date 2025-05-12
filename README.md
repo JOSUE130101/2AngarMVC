@@ -332,5 +332,36 @@ Si tienes problemas:
 
 
 
+## 👨💻 Sobre el Desarrollador
+```
+## 👨💻 Sobre el Desarrollador  
+**Israel Hernandez**  
+* especializado en diseño web*
+
+### 💻 Habilidades Aplicadas en este Proyecto  
+
+🛠️ Experiencia Demostrada
+Implementación profesional de MVC:
+
+Modelos: Consultas SQL preparadas
+
+Vistas: Interfaz intuitiva con CSS personalizado
+
+Controladores: Lógica de negocio eficiente
+
+Diseño de base de datos relacional optimizada
+
+Desarrollo de sistema CRUD completo con seguridad integrada
+
+📬 Contáctame
+Email
+Colaboraciones y propuestas profesionales:
+✉️ israelharder@gmail.com
+
+
+
+
+
+
 
 
