@@ -42,6 +42,8 @@
 <li><a href="#Constantes">Constantes</a></li>
 <li><a href="#Instruciones">Instruciones</a></li>
 <li><a href="#Soluciones">Soluciones</a></li>
+<li><a href="#Referencias">Referencias</a></li>
+
 
 
 </ul>
@@ -163,6 +165,8 @@ proyecto-aviones/
 
 }
 ```
+<a href="#contents">Ir a Contenido.</a>
+
 <a id='Constantes'></a>
 
 `## Constantes de Configuración`
@@ -174,6 +178,8 @@ proyecto-aviones/
 
  Primeros Pasos
 Iniciar XAMPP (Apache y MySQL)
+  <a href="#contents">Ir a Contenido.</a>
+
 <a id='Instruciones'></a>
 
 `## Abrir en navegador:`
@@ -186,6 +192,8 @@ Iniciar XAMPP (Apache y MySQL)
 `## Listado de aviones existentes`
 
 - Opciones de navegación
+    <a href="#contents">Ir a Contenido.</a>
+
 <a id='Soluciones'></a>
 
 `## 🔧 Solución de Problemas`
@@ -207,6 +215,7 @@ No se muestran los estilos
 Verificar que la carpeta diseño/ contenga los archivos CSS/JS
 
 Revisar rutas en las vistas
+
 <a href="#contents">Ir a Contenido.</a>
 
 <a id='Insertar'></a>
@@ -220,12 +229,16 @@ Ejecutar en phpMyAdmin:
 - VALUES 
 - ('N12345', 'Boeing 737-800', 'Aeroméxico', 160, '2018-05-15'),
 - ('XA-ABC', 'Airbus A320neo', 'Volaris', 186, '2020-11-22');
+<a href="#contents">Ir a Contenido.</a>
+
 ## 🛑 Recomendaciones de Seguridad
 - Cambiar credenciales de MySQL en producción
 
 - No usar usuario root en entorno real
 
 - Implementar sistema de autenticación
+<a href="#contents">Ir a Contenido.</a>
+
 
 ## 📌 Notas Adicionales
 - El sistema usa el patrón MVC
@@ -329,6 +342,7 @@ Si tienes problemas:
 
 ✈️ **¡Ahora estás listo para gestionar tu flota de aviones eficientemente!**
 
+<a id='Referencias'></a>
 
 ## 📹 Referencias de Videos
 
@@ -341,9 +355,25 @@ El Profe Sergio (  https://www.youtube.com/watch?v=hzfX51FBebM&t=2s)
    - **Fecha de publicación**: 28/04/2025  
    - **Descripción breve**: Este es el primero de una serie de videos donde se elaborará un sistema de información usando Modelo/Vista/Controlador en PHP y programación orientada a objetos.
 PHP 7.2 / Visual Studio Code / MariaDB(MySQL)
-  
 
+  2. **02 Añadiendo Estilo Gráfico (Proyecto MVC PHP)**  
+   - **Canal/Creador**:
+El Profe Sergio (https://www.youtube.com/@ElProfeSergio)
+   - **Enlace**: [https://www.youtube.com/watch?v=vDWoZAACW1A&t=185s]  
+   - **Fecha de publicación**: 28/04/2025  
+   - **Descripción breve**:Este es el primero de una serie de videos donde se elaborará un sistema de información usando Modelo/Vista/Controlador en PHP y programación orientada a objetos.
+PHP 7.2 / Visual Studio Code / MariaDB(MySQL)
 
+  3. **03.1 Modelo Producto Encapsulado (Proyecto MVC PHP)**  
+   - **Canal/Creador**:
+El Profe Sergio (https://www.youtube.com/@ElProfeSergio)
+   - **Enlace**: [https://www.youtube.com/watch?v=7rZJhwzaX3s]  
+   - **Fecha de publicación**: 28/04/2025  
+   - **Descripción breve**:Aplicando encapsulamiento a la clase y la tabla conrrespondiente..
+Este material hace parte de una serie de videos donde se elaborará un sistema de información usando Modelo/Vista/Controlador en PHP y programación orientada a objetos.
+PHP 7.2 / Visual Studio Code / MariaDB(MySQL)
+
+  <a href="#contents">Ir a Contenido.</a>
 
 
 ## 👨💻 Sobre el Desarrollador
